@@ -24,7 +24,7 @@ while cap.isOpened():
         
         if(perimeter > 7000):
             cv2.putText(frame, "It's my picture!", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 0, 0))
-            cv2.imwrite("pares/12.03/files/mytest.png", frame)
+        #    cv2.imwrite("pares/12.03/files/mytest.png", frame)
 
         cv2.imshow("frames", frame)
         
