@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 
-cap = cv2.VideoCapture("pares/12.03/files/video.mp4")
+cap = cv2.VideoCapture("./files/video.mp4")
 cv2.namedWindow("frames", cv2.WINDOW_KEEPRATIO)
 while cap.isOpened():
     ret, frame = cap.read()
